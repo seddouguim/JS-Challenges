@@ -1,5 +1,6 @@
 function splitShippingBoxes(arr) {
   const packages = [...arr];
+  const numberOfPackages = packages.shift();
 
   let returnValue = {
     message: "",
